@@ -26,6 +26,6 @@ def get_edge_for_two_nodes(nodes, search_field, indexes_to_search, levels=2):
                 for n in nodes:
                     get_edge_for_two_nodes([n, b['key']], "body_text", ["scifi_posts", "scifi_comments"], levels-1)
 
-get_edge_for_two_nodes(["jean grey", "in"], "body_text", ["scifi_posts", "scifi_comments"])
+get_edge_for_two_nodes(["jean grey", "in love"], "body_text", ["scifi_posts", "scifi_comments"])
 #get_edge_for_two_nodes(["vader", "the force"], "body_text", ["scifi_posts", "scifi_comments"], 3)
 #get_edge_for_two_nodes(["marty mcfly", "time travel"], "body_text", ["scifi_posts", "scifi_comments"], 5)
