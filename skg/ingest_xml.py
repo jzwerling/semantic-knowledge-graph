@@ -34,5 +34,5 @@ def get_entities(body_text):
 
 parsed_doc = minidom.parse("Comments.xml")
 populate_index(parsed_doc, "scifi_comments", "comments", {'Text': 'body_text', 'PostId':'post_id'}, True)
-#parsed_doc = minidom.parse("Posts.xml")
-#populate_index(parsed_doc, "scifi_posts", "posts", {'Body': 'body_text', 'Tags':'tags'}, True)
+parsed_doc = minidom.parse("Posts.xml")
+populate_index(parsed_doc, "scifi_posts", "posts", {'Body': 'body_text', 'Tags':'tags'}, True)
