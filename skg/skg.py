@@ -29,4 +29,3 @@ get_edge_for_two_nodes(["jean grey", "in love"], "body_text", ["scifi_posts", "s
 
 get_edge_for_two_nodes(["bruce banner", "iron man"], "entities", ["scifi_posts", "scifi_comments"], 2)
 #get_edge_for_two_nodes(["darth vader", "luke skywalker"], "entities", ["scifi_posts"], 3)
-#get_edge_for_two_nodes(["marty mcfly", "time travel"], "body_text", ["scifi_posts", "scifi_comments"], 3)
