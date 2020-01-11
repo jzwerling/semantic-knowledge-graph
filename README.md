@@ -1,4 +1,4 @@
-# SemanticKnowledgeGraph
+# Semantic Knowledge Graph
 Implementation of Semantic Knowledge graph with Elasticsearch 6.6 and Python 3.7
 
 Based on Trey Grainger's presentation here:
